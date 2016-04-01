@@ -1,3 +1,3 @@
 $('svg').on('click', function () {
-  $('svg').addClass('is-engaged');
+  $('svg').toggleClass('is-engaged');
 });
